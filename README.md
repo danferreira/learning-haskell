@@ -1,1 +1,1 @@
-# learning-haskell
+# Learning Haskell from scratch
