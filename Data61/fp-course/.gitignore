@@ -1,0 +1,38 @@
+*~
+*#*
+
+# CABAL
+/dist
+/dist-newstyle
+/cabal-dev
+/.cabal-sandbox
+/cabal.sandbox.config
+/cabal.project.local
+
+# Haskell Program Coverage
+/.hpc
+
+# Leksah
+*.lkshs
+
+# Intellij IDEA
+/.idea
+
+# darcs
+/_darcs
+
+# ctags
+TAGS
+
+# sbt
+/project
+/target
+
+*.swp
+
+# Stack
+.stack-work/
+
+# Vagrant
+.vagrant
+ops/*.retry
