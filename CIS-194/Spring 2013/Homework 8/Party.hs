@@ -2,7 +2,7 @@
 {-# OPTIONS_GHC -fno-warn-orphans #-}
 
 module Party where
-  
+
 import Data.List (sort)
 
 import Data.Tree
@@ -27,6 +27,7 @@ treeFold :: (a -> [b] -> b) -> Tree a -> b
 treeFold f t = f (rootLabel t) (map (treeFold f) (subForest t))
 
 -- Exercise 3
+
 nextLevel :: Employee -> [(GuestList, GuestList)] -> (GuestList, GuestList)
 nextLevel b gls = (withBoss, withoutBoss)
     where
